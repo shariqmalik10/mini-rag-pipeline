@@ -1,0 +1,38 @@
+[
+  {
+    "query_id": "A1",
+    "question": "How long does an e-wallet payout take?",
+    "expected_doc_titles": ["Withdrawal timelines"],
+    "ground_truth_answer_points": ["E-wallet payouts usually arrive within 4 hours of approval"]
+  },
+  {
+    "query_id": "A2",
+    "question": "Is there a fee for withdrawing to my bank, and how long do bank transfers take?",
+    "expected_doc_titles": ["Fees and charges", "Withdrawal timelines"],
+    "ground_truth_answer_points": ["Withdrawals to a bank account carry a fee of 2 EUR", "Bank transfers can take 1 to 3 business days once approved"]
+  },
+  {
+    "query_id": "A3",
+    "question": "I lost my authenticator app, what now?",
+    "expected_doc_titles": ["Two-factor authentication"],
+    "ground_truth_answer_points": ["use one of the backup codes saved during setup"]
+  },
+  {
+    "query_id": "A4",
+    "question": "What is the capital of France?",
+    "expected_doc_titles": [],
+    "ground_truth_answer_points": []
+  },
+  {
+    "query_id": "A5",
+    "question": "Do card deposits cost anything?",
+    "expected_doc_titles": ["fees and  CHARGES"],
+    "ground_truth_answer_points": ["Deposits by card are free of charge"]
+  },
+  {
+    "query_id": "A6",
+    "question": "Can I trade crypto on a demo account?",
+    "expected_doc_titles": ["Crypto trading rules"],
+    "ground_truth_answer_points": []
+  }
+]

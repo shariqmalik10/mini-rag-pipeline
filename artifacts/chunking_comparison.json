@@ -1,0 +1,38 @@
+{
+  "strategies": [
+    {
+      "strategy": "sentence",
+      "chunk_count": 19,
+      "avg_chunk_chars": 69.9,
+      "avg_rank1_chunk_chars": 52.6,
+      "summary": {
+        "top3_hit_rate": 1.0,
+        "total_queries": 5,
+        "hits": 5,
+        "partial_hits": 0,
+        "misses": 0,
+        "mrr_top3": 1.0,
+        "answer_point_recall_top3": 1.0,
+        "answer_point_recall_rank1": 1.0
+      }
+    },
+    {
+      "strategy": "fixed",
+      "chunk_count": 13,
+      "avg_chunk_chars": 127.7,
+      "avg_rank1_chunk_chars": 146.0,
+      "summary": {
+        "top3_hit_rate": 1.0,
+        "total_queries": 5,
+        "hits": 5,
+        "partial_hits": 0,
+        "misses": 0,
+        "mrr_top3": 1.0,
+        "answer_point_recall_top3": 1.0,
+        "answer_point_recall_rank1": 0.6
+      }
+    }
+  ],
+  "result": "sentence: top-3 hit rate 1.0, MRR 1.0, answer point in rank-1 chunk 1.0, rank-1 chunk 52.6 chars on average; fixed: top-3 hit rate 1.0, MRR 1.0, answer point in rank-1 chunk 0.6, rank-1 chunk 146.0 chars on average.",
+  "tradeoff": "Sentence chunks hold one fact each, so a citation points at exactly the supporting sentence and an extractive answer quotes nothing extra. They lose context when a fact spans sentences, which the pronoun-merge rule only partly recovers. Fixed-size windows keep neighbouring sentences together and tolerate unpunctuated text, but they cut facts mid-sentence, dilute term scores with unrelated words, and make quoted answers carry text the question did not ask about."
+}

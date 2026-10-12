@@ -1,0 +1,5 @@
+Title: Bank transfer timelines
+Section: Payments
+
+Bank withdrawals may take 2 to 5 business days after approval.
+Transfers are sent in the account currency.

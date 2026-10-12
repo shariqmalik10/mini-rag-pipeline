@@ -1,0 +1,7 @@
+section: Payments
+title: Withdrawal timelines
+
+Withdrawals requested before 17:00 UTC are normally reviewed the same business day. Bank transfers can take 1 to 3 business days once approved.
+E-wallet payouts usually arrive within 4 hours of approval. This applies to verified accounts only.
+
+Withdrawals stay pending while an account is under compliance review.

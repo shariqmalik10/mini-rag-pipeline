@@ -1,0 +1,6 @@
+Title: Two-factor authentication
+Section: Security
+
+Two-factor authentication adds a code from an authenticator app at login.
+If the authenticator app is lost, use one of the backup codes saved during setup.
+Support cannot disable 2FA without identity verification.

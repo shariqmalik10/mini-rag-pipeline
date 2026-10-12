@@ -1,0 +1,5 @@
+Title: Fees and charges
+
+Deposits by card are free of charge.
+Withdrawals to a bank account carry a fee of 2 EUR.
+Inactive accounts are charged 5 EUR per month after 12 months without activity.

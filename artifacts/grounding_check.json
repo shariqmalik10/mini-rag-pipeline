@@ -1,0 +1,103 @@
+{
+  "summary": {
+    "answers": 5,
+    "grounded": 5,
+    "ungrounded_query_ids": []
+  },
+  "results": [
+    {
+      "query_id": "Q1",
+      "answer_label": "grounded_answer",
+      "citations": [
+        {
+          "citation": "[Cash withdrawal processing §chunk_2]",
+          "claim": "Bank withdrawals may take 1 to 3 business days after approval.",
+          "in_retrieval": true,
+          "support": "exact",
+          "overlap": 1.0
+        },
+        {
+          "citation": "[Cash withdrawal processing §chunk_1]",
+          "claim": "Withdrawal requests submitted before 17:00 UTC are usually reviewed on the same business day.",
+          "in_retrieval": true,
+          "support": "exact",
+          "overlap": 1.0
+        }
+      ],
+      "citations_match_answer_text": true,
+      "uncited_text": "",
+      "grounded": true
+    },
+    {
+      "query_id": "Q2",
+      "answer_label": "grounded_answer",
+      "citations": [
+        {
+          "citation": "[Password reset and account recovery §chunk_2]",
+          "claim": "Reset links expire after 30 minutes.",
+          "in_retrieval": true,
+          "support": "exact",
+          "overlap": 1.0
+        }
+      ],
+      "citations_match_answer_text": true,
+      "uncited_text": "",
+      "grounded": true
+    },
+    {
+      "query_id": "Q3",
+      "answer_label": "grounded_answer",
+      "citations": [
+        {
+          "citation": "[Password reset and account recovery §chunk_3]",
+          "claim": "For security reasons, support agents cannot see or manually reveal user passwords.",
+          "in_retrieval": true,
+          "support": "exact",
+          "overlap": 1.0
+        }
+      ],
+      "citations_match_answer_text": true,
+      "uncited_text": "",
+      "grounded": true
+    },
+    {
+      "query_id": "Q4",
+      "answer_label": "grounded_answer",
+      "citations": [
+        {
+          "citation": "[Document verification requirements §chunk_3]",
+          "claim": "Utility bills older than 6 months are not accepted.",
+          "in_retrieval": true,
+          "support": "exact",
+          "overlap": 1.0
+        },
+        {
+          "citation": "[Document verification requirements §chunk_2]",
+          "claim": "Proof of address documents must show the user's full name, address, and issue date.",
+          "in_retrieval": true,
+          "support": "exact",
+          "overlap": 1.0
+        }
+      ],
+      "citations_match_answer_text": true,
+      "uncited_text": "",
+      "grounded": true
+    },
+    {
+      "query_id": "Q5",
+      "answer_label": "grounded_answer",
+      "citations": [
+        {
+          "citation": "[Demo account behaviour §chunk_3]",
+          "claim": "Demo profit cannot be withdrawn.",
+          "in_retrieval": true,
+          "support": "exact",
+          "overlap": 1.0
+        }
+      ],
+      "citations_match_answer_text": true,
+      "uncited_text": "",
+      "grounded": true
+    }
+  ]
+}

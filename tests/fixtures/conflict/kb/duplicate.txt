@@ -1,0 +1,5 @@
+Title: Withdrawal FAQ
+Section: Payments
+
+E-wallet withdrawals are typically processed within 4 hours after approval.
+Contact support if a withdrawal is delayed.

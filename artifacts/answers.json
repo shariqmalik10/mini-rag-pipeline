@@ -1,0 +1,61 @@
+[
+  {
+    "query_id": "Q1",
+    "answer_label": "grounded_answer",
+    "answer": "Bank withdrawals may take 1 to 3 business days after approval. [Cash withdrawal processing §chunk_2] Withdrawal requests submitted before 17:00 UTC are usually reviewed on the same business day. [Cash withdrawal processing §chunk_1]",
+    "citations": [
+      "[Cash withdrawal processing §chunk_2]",
+      "[Cash withdrawal processing §chunk_1]"
+    ],
+    "used_chunk_ids": [
+      "chunk_2",
+      "chunk_1"
+    ]
+  },
+  {
+    "query_id": "Q2",
+    "answer_label": "grounded_answer",
+    "answer": "Reset links expire after 30 minutes. [Password reset and account recovery §chunk_2]",
+    "citations": [
+      "[Password reset and account recovery §chunk_2]"
+    ],
+    "used_chunk_ids": [
+      "chunk_2"
+    ]
+  },
+  {
+    "query_id": "Q3",
+    "answer_label": "grounded_answer",
+    "answer": "For security reasons, support agents cannot see or manually reveal user passwords. [Password reset and account recovery §chunk_3]",
+    "citations": [
+      "[Password reset and account recovery §chunk_3]"
+    ],
+    "used_chunk_ids": [
+      "chunk_3"
+    ]
+  },
+  {
+    "query_id": "Q4",
+    "answer_label": "grounded_answer",
+    "answer": "Utility bills older than 6 months are not accepted. [Document verification requirements §chunk_3] Proof of address documents must show the user's full name, address, and issue date. [Document verification requirements §chunk_2]",
+    "citations": [
+      "[Document verification requirements §chunk_3]",
+      "[Document verification requirements §chunk_2]"
+    ],
+    "used_chunk_ids": [
+      "chunk_3",
+      "chunk_2"
+    ]
+  },
+  {
+    "query_id": "Q5",
+    "answer_label": "grounded_answer",
+    "answer": "Demo profit cannot be withdrawn. [Demo account behaviour §chunk_3]",
+    "citations": [
+      "[Demo account behaviour §chunk_3]"
+    ],
+    "used_chunk_ids": [
+      "chunk_3"
+    ]
+  }
+]

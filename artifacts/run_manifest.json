@@ -1,0 +1,34 @@
+{
+  "stage_trace": [
+    "INIT",
+    "DOCUMENTS_LOADED",
+    "DOCUMENTS_CHUNKED",
+    "INDEX_BUILT",
+    "RETRIEVAL_COMPLETE",
+    "ANSWERS_GENERATED",
+    "EVALUATION_COMPLETE",
+    "VALIDATION_COMPLETE",
+    "RESULTS_FINALISED"
+  ],
+  "chunking_strategy": "sentence",
+  "top_k": 5,
+  "llm_used": false,
+  "documents": 4,
+  "chunks": 19,
+  "queries": 5,
+  "kb_sha256": [
+    "0338423f693c2fa93f2f458a82339e1d5283f55c559553d3171f40fccb342a5c",
+    "9f6898e8e1f5398cd423982153735eb80ddd41c2e788547ddfbbc20503ea6187",
+    "ac435a53b80586e6222a06ed6c9a040e704f2d4bc66c9c333a8c843a28dd70c2",
+    "e7a63c628f9302af22b956a95fde7879e1d0be7062c3ff53799d5cc1fb144c12"
+  ],
+  "queries_sha256": "43f14313d5484263560c9910a14566e01325259e0097d129a2af0b8c6363620d",
+  "artifacts": [
+    "answers.json",
+    "chunking_comparison.json",
+    "chunks.json",
+    "eval.json",
+    "grounding_check.json",
+    "retrieval.json"
+  ]
+}
